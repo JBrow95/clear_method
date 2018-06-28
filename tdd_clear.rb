@@ -8,6 +8,6 @@ class TestClearMethod < Minitest::Test
 	end
 
 	def test_if_array_has_elements
-		assert_equal(1, rm_elements(), [0])
+		assert_equal(1, rm_elements()[0])
 	end
 end
