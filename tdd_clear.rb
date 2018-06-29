@@ -18,6 +18,12 @@ class TestClearMethod < Minitest::Test
 	# end
 
 	def test_if_pos_1_is_removed
+		f_array = []
 		assert_equal([2,3,4,5], rm_elements([1,2,3,4,5]))
+	end
+
+	def test_if_pos_2_is_removed
+		f_array = []
+		assert_equal([3,4,5], rm_elements([1,2,3,4,5]))
 	end
 end
