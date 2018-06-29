@@ -26,4 +26,9 @@ class TestClearMethod < Minitest::Test
 		f_array = []
 		assert_equal([3,4,5], rm_elements([1,2,3,4,5]))
 	end
+
+	def test_if_all_positions_are_removed
+		f_array = []
+		assert_equal([], rm_elements([1,2,3,4,5]))
+	end
 end
