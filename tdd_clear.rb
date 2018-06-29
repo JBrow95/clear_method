@@ -22,10 +22,10 @@ class TestClearMethod < Minitest::Test
 	# 	assert_equal([2,3,4,5], rm_elements([1,2,3,4,5]))
 	# end
 
-	def test_if_pos_2_is_removed
-		f_array = []
-		assert_equal([3,4,5], rm_elements([1,2,3,4,5]))
-	end
+	# def test_if_pos_2_is_removed
+	# 	f_array = []
+	# 	assert_equal([3,4,5], rm_elements([1,2,3,4,5]))
+	# end
 
 	def test_if_all_positions_are_removed
 		f_array = []
